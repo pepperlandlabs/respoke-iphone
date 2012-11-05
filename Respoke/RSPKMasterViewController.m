@@ -25,11 +25,18 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    /*
 	// Do any additional setup after loading the view, typically from a nib.
-    self.navigationItem.leftBarButtonItem = self.editButtonItem;
+    //self.navigationItem.leftBarButtonItem = self.editButtonItem;
 
     UIBarButtonItem *addButton = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAdd target:self action:@selector(insertNewObject:)];
+    
     self.navigationItem.rightBarButtonItem = addButton;
+     */
+    
+    //self.navigationItem.titleView = [self titleView];
+    self.navigationItem.titleView = [self titleView];
+    self.navigationItem.rightBarButtonItem = [self quoteButton];
 }
 
 - (void)didReceiveMemoryWarning
@@ -46,6 +53,33 @@
     [_objects insertObject:[NSDate date] atIndex:0];
     NSIndexPath *indexPath = [NSIndexPath indexPathForRow:0 inSection:0];
     [self.tableView insertRowsAtIndexPaths:@[indexPath] withRowAnimation:UITableViewRowAnimationAutomatic];
+}
+
+- (UIBarButtonItem *)quoteButton {
+    UIImage *quoteButtonBG = [UIImage imageNamed:@"QuoteButtonBG.png"];
+    UIImage *quoteIcon = [UIImage imageNamed:@"QuoteIcon.png"];
+    UIImage *quoteButtonBGPress = [UIImage imageNamed:@"QuoteButtonBGPress.png"];
+    UIButton *quoteButton = [UIButton buttonWithType:UIButtonTypeCustom];
+    
+    [quoteButton setBackgroundImage:quoteButtonBG forState:UIControlStateNormal];
+    [quoteButton setBackgroundImage:quoteButtonBGPress forState:UIControlStateHighlighted];
+    [quoteButton setImage:quoteIcon forState:UIControlStateNormal];
+    
+    const CGFloat BarButtonOffset = 5.0f;
+    [quoteButton setFrame:CGRectMake(BarButtonOffset, 0, quoteButtonBG.size.width, quoteButtonBG.size.height)];
+    
+    UIView *containerView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, quoteButtonBG.size.width, quoteButtonBG.size.height)];
+    [containerView addSubview:quoteButton];
+    
+    UIBarButtonItem *item = [[UIBarButtonItem alloc] initWithCustomView:containerView];
+    return item;
+}
+
+- (UIImageView *)titleView {
+    UIImage *logo = [UIImage imageNamed:@"RespokeLogo.png"];
+    UIImageView *logoView = [[UIImageView alloc] initWithImage:logo];
+
+    return logoView;
 }
 
 #pragma mark - Table View

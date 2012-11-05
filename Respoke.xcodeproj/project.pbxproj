@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		88408AB016473D9C00DE48BE /* NavBar.png in Resources */ = {isa = PBXBuildFile; fileRef = 88408AA816473D9C00DE48BE /* NavBar.png */; };
+		88408AB116473D9C00DE48BE /* NavBar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 88408AA916473D9C00DE48BE /* NavBar@2x.png */; };
+		88408AB216473D9C00DE48BE /* QuoteButtonBG.png in Resources */ = {isa = PBXBuildFile; fileRef = 88408AAA16473D9C00DE48BE /* QuoteButtonBG.png */; };
+		88408AB316473D9C00DE48BE /* QuoteButtonBG@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 88408AAB16473D9C00DE48BE /* QuoteButtonBG@2x.png */; };
+		88408AB416473D9C00DE48BE /* QuoteButtonBGPress.png in Resources */ = {isa = PBXBuildFile; fileRef = 88408AAC16473D9C00DE48BE /* QuoteButtonBGPress.png */; };
+		88408AB516473D9C00DE48BE /* QuoteButtonBGPress@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 88408AAD16473D9C00DE48BE /* QuoteButtonBGPress@2x.png */; };
+		88408AB616473D9C00DE48BE /* QuoteIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 88408AAE16473D9C00DE48BE /* QuoteIcon.png */; };
+		88408AB716473D9C00DE48BE /* QuoteIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 88408AAF16473D9C00DE48BE /* QuoteIcon@2x.png */; };
+		8877DCF316598C7E00CF6B45 /* RespokeLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 8877DCF116598C7E00CF6B45 /* RespokeLogo.png */; };
+		8877DCF416598C7E00CF6B45 /* RespokeLogo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8877DCF216598C7E00CF6B45 /* RespokeLogo@2x.png */; };
+		88A7A3D01647340B005EAEBC /* RSPKNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 88A7A3CF1647340B005EAEBC /* RSPKNavigationBar.m */; };
 		88D64A4E164726F200995E8F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88D64A4D164726F200995E8F /* UIKit.framework */; };
 		88D64A50164726F200995E8F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88D64A4F164726F200995E8F /* Foundation.framework */; };
 		88D64A52164726F200995E8F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88D64A51164726F200995E8F /* CoreGraphics.framework */; };
@@ -37,6 +48,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		88408AA816473D9C00DE48BE /* NavBar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NavBar.png; sourceTree = "<group>"; };
+		88408AA916473D9C00DE48BE /* NavBar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NavBar@2x.png"; sourceTree = "<group>"; };
+		88408AAA16473D9C00DE48BE /* QuoteButtonBG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = QuoteButtonBG.png; sourceTree = "<group>"; };
+		88408AAB16473D9C00DE48BE /* QuoteButtonBG@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "QuoteButtonBG@2x.png"; sourceTree = "<group>"; };
+		88408AAC16473D9C00DE48BE /* QuoteButtonBGPress.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = QuoteButtonBGPress.png; sourceTree = "<group>"; };
+		88408AAD16473D9C00DE48BE /* QuoteButtonBGPress@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "QuoteButtonBGPress@2x.png"; sourceTree = "<group>"; };
+		88408AAE16473D9C00DE48BE /* QuoteIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = QuoteIcon.png; sourceTree = "<group>"; };
+		88408AAF16473D9C00DE48BE /* QuoteIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "QuoteIcon@2x.png"; sourceTree = "<group>"; };
+		8877DCF116598C7E00CF6B45 /* RespokeLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RespokeLogo.png; sourceTree = "<group>"; };
+		8877DCF216598C7E00CF6B45 /* RespokeLogo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "RespokeLogo@2x.png"; sourceTree = "<group>"; };
+		88A7A3CE1647340B005EAEBC /* RSPKNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSPKNavigationBar.h; sourceTree = "<group>"; };
+		88A7A3CF1647340B005EAEBC /* RSPKNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSPKNavigationBar.m; sourceTree = "<group>"; };
 		88D64A49164726F200995E8F /* Respoke.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Respoke.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		88D64A4D164726F200995E8F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		88D64A4F164726F200995E8F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -87,9 +110,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		88A7A3B816472CEA005EAEBC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8877DCF116598C7E00CF6B45 /* RespokeLogo.png */,
+				8877DCF216598C7E00CF6B45 /* RespokeLogo@2x.png */,
+				88408AA816473D9C00DE48BE /* NavBar.png */,
+				88408AA916473D9C00DE48BE /* NavBar@2x.png */,
+				88408AAA16473D9C00DE48BE /* QuoteButtonBG.png */,
+				88408AAB16473D9C00DE48BE /* QuoteButtonBG@2x.png */,
+				88408AAC16473D9C00DE48BE /* QuoteButtonBGPress.png */,
+				88408AAD16473D9C00DE48BE /* QuoteButtonBGPress@2x.png */,
+				88408AAE16473D9C00DE48BE /* QuoteIcon.png */,
+				88408AAF16473D9C00DE48BE /* QuoteIcon@2x.png */,
+			);
+			name = Resources;
+			path = "/Users/edmund/dev/respoke-iphone/Resources";
+			sourceTree = "<absolute>";
+		};
+		88A7A3CA16472E1D005EAEBC /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				88A7A3CE1647340B005EAEBC /* RSPKNavigationBar.h */,
+				88A7A3CF1647340B005EAEBC /* RSPKNavigationBar.m */,
+			);
+			name = UI;
+			path = ..;
+			sourceTree = "<group>";
+		};
 		88D64A3E164726F100995E8F = {
 			isa = PBXGroup;
 			children = (
+				88A7A3B816472CEA005EAEBC /* Resources */,
 				88D64A53164726F200995E8F /* Respoke */,
 				88D64A7A164726F200995E8F /* RespokeTests */,
 				88D64A4C164726F200995E8F /* Frameworks */,
@@ -120,6 +172,7 @@
 		88D64A53164726F200995E8F /* Respoke */ = {
 			isa = PBXGroup;
 			children = (
+				88A7A3CA16472E1D005EAEBC /* UI */,
 				88D64A5C164726F200995E8F /* RSPKAppDelegate.h */,
 				88D64A5D164726F200995E8F /* RSPKAppDelegate.m */,
 				88D64A65164726F200995E8F /* MainStoryboard.storyboard */,
@@ -242,6 +295,16 @@
 				88D64A62164726F200995E8F /* Default@2x.png in Resources */,
 				88D64A64164726F200995E8F /* Default-568h@2x.png in Resources */,
 				88D64A67164726F200995E8F /* MainStoryboard.storyboard in Resources */,
+				88408AB016473D9C00DE48BE /* NavBar.png in Resources */,
+				88408AB116473D9C00DE48BE /* NavBar@2x.png in Resources */,
+				88408AB216473D9C00DE48BE /* QuoteButtonBG.png in Resources */,
+				88408AB316473D9C00DE48BE /* QuoteButtonBG@2x.png in Resources */,
+				88408AB416473D9C00DE48BE /* QuoteButtonBGPress.png in Resources */,
+				88408AB516473D9C00DE48BE /* QuoteButtonBGPress@2x.png in Resources */,
+				88408AB616473D9C00DE48BE /* QuoteIcon.png in Resources */,
+				88408AB716473D9C00DE48BE /* QuoteIcon@2x.png in Resources */,
+				8877DCF316598C7E00CF6B45 /* RespokeLogo.png in Resources */,
+				8877DCF416598C7E00CF6B45 /* RespokeLogo@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +343,7 @@
 				88D64A5E164726F200995E8F /* RSPKAppDelegate.m in Sources */,
 				88D64A6A164726F200995E8F /* RSPKMasterViewController.m in Sources */,
 				88D64A6D164726F200995E8F /* RSPKDetailViewController.m in Sources */,
+				88A7A3D01647340B005EAEBC /* RSPKNavigationBar.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -454,6 +518,7 @@
 				88D64A87164726F200995E8F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		88D64A88164726F200995E8F /* Build configuration list for PBXNativeTarget "RespokeTests" */ = {
 			isa = XCConfigurationList;
@@ -462,6 +527,7 @@
 				88D64A8A164726F200995E8F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
