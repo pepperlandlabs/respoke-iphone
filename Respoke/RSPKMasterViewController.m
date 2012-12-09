@@ -36,7 +36,7 @@
     
     //self.navigationItem.titleView = [self titleView];
     self.navigationItem.titleView = [self titleView];
-    self.navigationItem.rightBarButtonItem = [self quoteButton];
+    //self.navigationItem.rightBarButtonItem = [self quoteButton];
 }
 
 - (void)didReceiveMemoryWarning
