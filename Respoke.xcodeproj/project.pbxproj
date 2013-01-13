@@ -35,6 +35,7 @@
 		88D64A77164726F200995E8F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88D64A4F164726F200995E8F /* Foundation.framework */; };
 		88D64A7F164726F200995E8F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 88D64A7D164726F200995E8F /* InfoPlist.strings */; };
 		88D64A82164726F200995E8F /* RespokeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 88D64A81164726F200995E8F /* RespokeTests.m */; };
+		88E1D10716754EA8008D5AC8 /* RSPKRightBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 88E1D10616754EA8008D5AC8 /* RSPKRightBarButtonItem.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -84,6 +85,8 @@
 		88D64A7E164726F200995E8F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		88D64A80164726F200995E8F /* RespokeTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RespokeTests.h; sourceTree = "<group>"; };
 		88D64A81164726F200995E8F /* RespokeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RespokeTests.m; sourceTree = "<group>"; };
+		88E1D10516754EA8008D5AC8 /* RSPKRightBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSPKRightBarButtonItem.h; sourceTree = "<group>"; };
+		88E1D10616754EA8008D5AC8 /* RSPKRightBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSPKRightBarButtonItem.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +136,8 @@
 			children = (
 				88A7A3CE1647340B005EAEBC /* RSPKNavigationBar.h */,
 				88A7A3CF1647340B005EAEBC /* RSPKNavigationBar.m */,
+				88E1D10516754EA8008D5AC8 /* RSPKRightBarButtonItem.h */,
+				88E1D10616754EA8008D5AC8 /* RSPKRightBarButtonItem.m */,
 			);
 			name = UI;
 			path = ..;
@@ -344,6 +349,7 @@
 				88D64A6A164726F200995E8F /* RSPKMasterViewController.m in Sources */,
 				88D64A6D164726F200995E8F /* RSPKDetailViewController.m in Sources */,
 				88A7A3D01647340B005EAEBC /* RSPKNavigationBar.m in Sources */,
+				88E1D10716754EA8008D5AC8 /* RSPKRightBarButtonItem.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -55,6 +55,7 @@
     [self.tableView insertRowsAtIndexPaths:@[indexPath] withRowAnimation:UITableViewRowAnimationAutomatic];
 }
 
+
 - (UIBarButtonItem *)quoteButton {
     UIImage *quoteButtonBG = [UIImage imageNamed:@"QuoteButtonBG.png"];
     UIImage *quoteIcon = [UIImage imageNamed:@"QuoteIcon.png"];
@@ -74,6 +75,7 @@
     UIBarButtonItem *item = [[UIBarButtonItem alloc] initWithCustomView:containerView];
     return item;
 }
+
 
 - (UIImageView *)titleView {
     UIImage *logo = [UIImage imageNamed:@"RespokeLogo.png"];
