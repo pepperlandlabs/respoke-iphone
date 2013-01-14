@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface RSPKRightBarButtonItem : UIBarButtonItem
+@interface RSPKRightBarButtonItem : UIButton
 
 @end
